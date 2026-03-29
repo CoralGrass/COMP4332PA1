@@ -1,0 +1,20 @@
+Experiment: BERT tokens (frozen) + BiLSTM
+  Accuracy : 0.6909
+  Macro-P  : 0.6211
+  Macro-R  : 0.5798
+  Macro-F1 : 0.5968
+
+Per-class F1:
+              precision    recall  f1-score   support
+
+       anger       0.56      0.48      0.52       555
+     disgust       0.42      0.46      0.44        61
+        fear       0.66      0.54      0.60        72
+         joy       0.84      0.80      0.82      1941
+     neutral       0.61      0.72      0.66      1592
+     sadness       0.68      0.53      0.60       266
+    surprise       0.57      0.53      0.55       459
+
+    accuracy                           0.69      4946
+   macro avg       0.62      0.58      0.60      4946
+weighted avg       0.70      0.69      0.69      4946

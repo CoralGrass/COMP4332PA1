@@ -1,0 +1,20 @@
+Experiment: CLIP tokens (frozen) + BiGRU
+  Accuracy : 0.6884
+  Macro-P  : 0.6268
+  Macro-R  : 0.5876
+  Macro-F1 : 0.6037
+
+Per-class F1:
+              precision    recall  f1-score   support
+
+       anger       0.52      0.53      0.52       555
+     disgust       0.52      0.39      0.45        61
+        fear       0.64      0.67      0.65        72
+         joy       0.81      0.83      0.82      1941
+     neutral       0.63      0.67      0.65      1592
+     sadness       0.68      0.58      0.62       266
+    surprise       0.59      0.44      0.50       459
+
+    accuracy                           0.69      4946
+   macro avg       0.63      0.59      0.60      4946
+weighted avg       0.69      0.69      0.69      4946
